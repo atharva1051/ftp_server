@@ -4,7 +4,7 @@ from pyftpdlib.handlers import FTPHandler
 from pyftpdlib.servers import FTPServer
 
 def run_ftp_server():
-    current_dir = os.getcwd()
+    current_dir = "./"
     
     import socket
     #ip_address = socket.gethostbyname(socket.gethostname())
